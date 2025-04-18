@@ -1,0 +1,23 @@
+
+.slider-container {
+    width: 100%; /* Adjust as needed */
+    max-width: 400px; /* Optional: max width */
+    margin: 0 auto;
+    height: 500px; 
+
+
+/* Center the container */
+  }
+  
+  .slider-image {
+    width: 100%; /* Make the image take up the full width of the slide */
+    height: 400px; /* Maintain aspect ratio */
+    object-fit: contain; 
+    align-self: center;/* Ensure the image covers the container */
+  }
+  
+  /* Optional: Adjust dot position if needed */
+  .slick-dots {
+   visibility: hidden;
+  }
+  
